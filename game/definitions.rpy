@@ -1,8 +1,13 @@
-## Best Friends — fallback definitions for a lightweight DDLC/Ren'Py mod.
+## Best Friends - fallback definitions for a lightweight DDLC/Ren'Py mod.
 ## A full DDLC mod template may already define some of these names. If so, keep
 ## the template's richer assets and remove matching fallback definitions here.
 
 default player = "MC"
+
+## DDLC/Ren'Py 6.99 expects `_menu` to exist before the exception screen
+## can render. Defining it at init time prevents secondary NameError crashes from
+## hiding the real issue if a script error occurs during startup.
+define _menu = False
 
 ## Characters.
 define mc = Character("[player]", color="#ffffff")
