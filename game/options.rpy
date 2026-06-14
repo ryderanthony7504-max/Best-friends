@@ -1,10 +1,10 @@
-## Best Friends — Ren'Py/DDLC package options.
+## Best Friends - Ren'Py/DDLC package options.
 ## These settings keep the mod self-contained for a lightweight Ren'Py workspace.
 
 init -1 python:
     config.name = "Best Friends"
     config.version = "0.2.0"
-    config.window_title = "Best Friends — A DDLC Fan Mod"
+    config.window_title = "Best Friends - A DDLC Fan Mod"
 
     ## DDLC-style window behavior.
     config.window = "auto"
