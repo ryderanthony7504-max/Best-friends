@@ -1,4 +1,4 @@
-## Best Friends — execution entry point.
+## Best Friends - execution entry point.
 ## Ren'Py automatically calls `label splashscreen` before the main menu/start.
 ## This splash presents the Team Salvato fan-work disclaimer before the custom
 ## story can begin.
