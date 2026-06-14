@@ -36,11 +36,11 @@ label best_friends_start:
     show monika 2b at t11
     m "Everyone, let's use today to finalize poems and decorations. We can still make this festival special."
 
-    show monika at t21
+    show monika 2b at t21
     show natsuki 4c at t22
     n "We could, if certain people stopped spacing out with glue sticks in their hands."
 
-    show natsuki at t31
+    show natsuki 4c at t31
     show yuri 2f at t32
     show sayori 1l at t33
     y "Natsuki..."
@@ -141,7 +141,7 @@ label best_friends_hospital:
     m "She's alive."
     "Monika says it like a prayer and a warning at the same time."
 
-    show monika at t31
+    show monika 1g at t31
     show yuri 3w at t32
     show natsuki 12b at t33
     y "I should have noticed. Her poems, her absences, the way she apologized for existing..."
