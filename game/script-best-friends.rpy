@@ -1,4 +1,4 @@
-# Best Friends — a DDLC fan-mod script draft.
+# Best Friends - a DDLC fan-mod script draft.
 # This file assumes a DDLC/Ren'Py-style environment with the usual character
 # definitions and sprites available. It intentionally avoids procedural details
 # in the crisis scene while keeping the emotional consequences central.
@@ -146,7 +146,7 @@ label best_friends_hospital:
     show natsuki 12b at t33
     y "I should have noticed. Her poems, her absences, the way she apologized for existing..."
     n "Stop it."
-    y "But I—"
+    y "But I-"
     n "I said stop it!"
 
     "Natsuki's fists are clenched so tightly her knuckles are pale."
