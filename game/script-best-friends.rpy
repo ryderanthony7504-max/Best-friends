@@ -123,7 +123,7 @@ label best_friends_morning:
     "I call for help."
     "I say her name until my throat hurts, and when I hear the smallest breath, I start crying so hard I can barely speak to the dispatcher."
 
-    m "[glitchtext('This time, the door opened in time.')]"
+    m "Th... this time, the door opened in time."
 
     "Sirens arrive. Adults take over. I answer questions with shaking hands."
     "The festival does not happen that day."
@@ -131,7 +131,7 @@ label best_friends_morning:
     jump best_friends_hospital
 
 label best_friends_hospital:
-    scene bg hospital
+    scene black
     with dissolve
 
     "Hospitals do not feel like miracles."
@@ -209,12 +209,10 @@ label best_friends_recovery:
 
     "The classroom lights flicker. For a moment, the poem notebook on the desk displays text I never wrote."
     window hide
-    show screen tear(8, offtimeMult=1, ontimeMult=10)
     pause 0.25
-    hide screen tear
     window show
 
-    "STAY. STAY. STAY."
+    "S T A Y .   S T A Y .   S T A Y ."
 
     jump best_friends_festival
 
